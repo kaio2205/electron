@@ -169,6 +169,8 @@ console.log(`Electron:${process.versions.electron}`)
 ipcMain.on('send-message', (event, message) => {
 
     console.log(`processo principal recebeu uma mensagem:${message}`)
+    // enviar uma resposta ao renderizador
+    event.reply('receive-message',"  ola renderizador")
 })
 
 

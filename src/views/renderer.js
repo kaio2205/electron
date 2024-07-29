@@ -7,7 +7,14 @@ console.log("Processo  de Renderização")
 
 // exemplo de comando que so funciona no Node.js
 console.log(`Electron:${api.verElectron()}`)
-api.hello()
+
+// envio de uma mensagem
+api.hello("oi")
+
+// recebimento da mensagem
+api.answer((event,message)=>{
+console.log(`processo de rebderizaçao recebeu uma mensagem${message}`)
+})
 
 // funçao que é executada quando o botao for clicado 
 
