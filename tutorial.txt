@@ -63,3 +63,50 @@ src
                                 |
    Fluxo : o IPCrenderer -> hello() ->  -> main.js(ipcMain)
 
+   ------------------------------------------------------------------
+
+
+   uso do framework (front-end) no electron 
+
+   -bootstrap
+        |______ local (dowload)   
+
+Passo 1 ---  fazer o dowload do css e js  compilado 
+
+Passo 2 --- descompactar o css e o js  para a pasta public
+
+Passo 3 ---  links com os documentos html
+
+
+Para usar o bootstrap seguir a documentaçao
+
+dica: o bootstrap trabalha com as classes
+inice  criando um conteiner
+
+-----------------------------------------------------------------------------------------
+
+
+relaçao entre janelas (parent-child) e modal 
+
+-foco do usuario no sistema 
+
+- e segurança e desempenho
+
+
+
+Passo 1: determinar a janela pai (principal)
+
+Passo 2:  Criar o relacionamento entre as janelas 
+
+
+Passo 3:   
+
+
+
+
+
+
+
+
+
+
